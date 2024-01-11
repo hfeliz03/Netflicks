@@ -23,6 +23,7 @@ body{
 .top-header{
     display: flex;
     justify-content: space-between;
+    height: 10vh;
 }
 .top-header-right{
     display: flex;
@@ -57,4 +58,69 @@ body{
 .dropdown button img{
     width: 10px;
     margin-left: 10px;
+}
+
+.bot-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.bot-header>*{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+
+h3{
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bot-header form{
+    display: flex;
+    flex-direction: column;
+}
+.bot-header form>*{
+    margin: 10px;
+}
+.bot-header form div{
+    display: flex;
+    justify-content: space-between;
+}
+.bot-header form div>*{
+    height: 100%;
+    
+}
+
+.bot-header button{
+    background-color: #db0000;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+
+.bot-header input{
+    background-color: transparent;
+    color:  rgb(50, 86, 86);
+    border: solid;
+    border-color: rgb(86, 86, 86);
+    min-width: 12.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-grow: 1;
 }
